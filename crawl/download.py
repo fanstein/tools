@@ -1,6 +1,8 @@
 import requests
 import urllib2
 
+# http://httpstat.us
+
 
 def download(url, num_retries=2):
     print 'downloading:', url
